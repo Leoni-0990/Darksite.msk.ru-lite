@@ -1,7 +1,7 @@
 # Darksite.msk.ru-lite открытая версия сайта **[Darksite.msk.ru](https://darksite.msk.ru/)**
 
 > [!NOTE]  
-> Так как zapret open-source, вы всегда можете сами собрать эти бинарники и не бояться вирусов.
+> Так как Darksite.msk.ru-lite open-source, вы всегда можете сами собрать эти бинарники и не бояться вирусов.
 > 
 >**Буду благодарен за поставленную звезду [Darksite.msk.ru](https://github.com/Leoni-0990/Darksite.msk.ru-lite)**
 
