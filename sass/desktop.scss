@@ -240,7 +240,6 @@ p.animate::before {
   width: 50px;
 }
 
-
 footer {
   background-color: black;
   display: flex;
@@ -258,6 +257,7 @@ footer {
     text-align: justify;
   }
 }
+
 .footer_box{
   padding: 10px;
   display: flex;
@@ -266,9 +266,11 @@ footer {
   justify-content: center;
   width: 100%;
 }
+
 .footer_box:first-child{
   padding-left: 30px;
 }
+
 .footer_box:last-child{
   padding-right: 30px;
 }
