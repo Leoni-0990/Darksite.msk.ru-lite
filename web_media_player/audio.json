@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Жалоба",
+      "artist": "УННВ",
+      "src": "audio/UNNV_Mur1zik_-_ZHaloba_71298137.mp3",
+      "cover": "images/YNNV.jpg"
+    },
+    {
+      "title": "В череп",
+      "artist": "HABAL feat. Девиантный Диалект",
+      "src": "audio/v_cherep.mp3",
+      "cover": "images/v_cherep.jpg"
+    },
+    {
+      "title": "ЭТАЖИ",
+      "artist": "Цинк Уродов",
+      "src": "audio/etashi.mp3",
+      "cover": "images/lift.jpg"
+    }
+  ]

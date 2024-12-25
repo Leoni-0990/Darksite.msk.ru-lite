@@ -1,0 +1,274 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: Silkscreen;
+  src: url("/fonts/Silkscreen/Silkscreen.woff2"), format(".woff2");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Silkscreen, sans-serif;
+  color: #e6e8e6;
+  transition: 0.3s;
+  line-height: 20px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  p {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+}
+
+.box p {
+  text-align: justify;
+}
+
+a {
+  font-family: Silkscreen, sans-serif;
+  color: #c9c3ff;
+  transition: 0.3s;
+  img {
+    width: 24px;
+  }
+}
+a:hover {
+color: #04ff4d;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #240046 0%,
+    #3c096c 19%,
+    #5a189a 40%,
+    #9845e0 60%,
+    #3c096c 83%,
+    #240046 100%
+  );
+  background-size: 10000px 100%;
+  animation: bg 10s linear infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 10000px;
+  }
+}
+
+#head {
+  display: flex;
+
+  transition: 2s;
+  width: 100%;
+  a {
+    text-decoration: none;
+  }
+
+  h1:hover {
+    color: #04ff4d;
+  }
+  .head_box {
+    transition: 1.5s;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 30px 0;
+    div {
+      width: 100%;
+    }  
+    .no_visible {
+      display: flex;
+      justify-content: center;
+    }
+    h1 {
+      transition: 2s;
+      text-decoration: blink;
+      font-size: 5em;
+    }
+    
+  }
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  p:hover {
+    color: #04ff4d;
+  }
+  .box {
+    padding: 3px 0px;
+    border: 1px solid #04ff4d;
+  }
+}
+
+p.animate::before {
+  content: "создавай";
+  animation: animate infinite 8s ease-out;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+  25% {
+    content: "открывай";
+  }
+  50% {
+    content: "изучай";
+  }
+  75% {
+    content: "пробуй";
+  }
+}
+
+.ani {
+  text-align: end;
+  animation: ani infinite 2s ease-out;
+  opacity: 1;
+}
+
+@keyframes ani {
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+}
+
+.ani_color {
+  animation: ani_color infinite 2s ease-out;
+  text-align: end;
+}
+
+@keyframes ani_color {
+  40% {
+    color: #f2dbff;
+  }
+  50% {
+    color: #f2dbff;
+  }
+  55% {
+    color: #04ff4d;
+  }
+}
+
+.content {
+  margin: 30px 0;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  background-color: #6425a7;
+  display: flex;
+  text-align: justify;
+  display: flex;
+  padding: 1%;
+  .content {
+    box-shadow: none;
+    width: 100%;
+  }
+}
+
+.name_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.take_mail {
+  justify-content: space-around;
+}
+
+.black_color {
+  padding: 0 10px;
+  margin-top: 50px;
+  background-color: #040403;
+  align-items: center;
+}
+
+.black_color:nth-child(1) {
+  padding: 0px;
+  margin: 0px;
+}
+
+.flash_box {
+  width: 173px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  animation: none;
+}
+
+@keyframes flash_box {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.min_picture {
+  width: 50px;
+}
+
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  img {
+    width: 24px;
+  }
+  .content {
+    background-color: black;
+    margin: 0;
+  }
+  p{
+    text-align: justify;
+  }
+}
+.footer_box{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.footer_box:first-child{
+  padding-left: 30px;
+}
+.footer_box:last-child{
+  padding-right: 30px;
+}
