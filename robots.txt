@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: darksite.msk.ru
+Sitemap: http://darksite.msk.ru/sitemap.xml
