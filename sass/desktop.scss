@@ -274,3 +274,28 @@ footer {
 .footer_box:last-child{
   padding-right: 30px;
 }
+
+.warning {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.warning--active {
+	display: flex;
+}
+
+.warning__text {
+	margin-right: 30px;
+}
+
+.warning__read {
+	display: block;
+	margin-left: 15px;
+}
